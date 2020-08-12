@@ -35,4 +35,7 @@ install_if_missing "winetricks" "brew install winetricks"
 # Install newer openssl to fix https issue with wget
 brew install https://github.com/tebelorg/Tump/releases/download/v1.0.0/openssl.rb
 
+# Install ntlm_autho for SSL issues
+sudo -H /usr/local/bin/pip3 install ntlm-auth
+
 winetricks dotnet452 corefonts

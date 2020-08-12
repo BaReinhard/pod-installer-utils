@@ -1,0 +1,5 @@
+pathofdiablolauncher.msi
+tmp
+tmp/*
+filter
+config
