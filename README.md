@@ -6,9 +6,9 @@
 ## If you already have wine installed and experiencing problems
 *I suggest to remove your previously installed wine, winetricks, xquartz*
 
-*Following this, run the install script in this repo `bash install.sh`*
-
-## Finishing Up The Fresh Install
-1. Download Diablo II and Diablo II:LOD for Windows (NOT MAC)
-2. Read over the points identified here: https://pathofdiablo.com/wiki/index.php?title=Download
-3. Run `bash run_pod_installer.sh`
+**Then Follow These steps**:
+1. Run the install script in this repo `bash install.sh`
+2. Run `wine explorer`
+3. Download Diablo II and Diablo II:LOD for Windows (NOT MAC)
+4. Read over the points identified here: https://pathofdiablo.com/wiki/index.php?title=Download
+5. Run the Path of Diablo Launcher using `wine explorer` and navigate to the path of Path of Diablo Launcher
