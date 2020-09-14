@@ -36,8 +36,3 @@ winetricks -q dotnet46
 
 # Configure Brew as 32-bit
 WINEARCH=win32 WINEPREFIX=~/.wine32 winecfg
-
-
-echo You will need to do the following before using the launcher created on your desktop:
-echo to Install the Diablo 2 find the installer then exe and run the command "WINEARCH=win32 WINEPREFIX=~/.wine32 wine /File/Location/D2.exe", do the same with d2 lod
-echo to install the .msi file for the Pod Launcher use the command "WINEARCH=win32 WINEPREFIX=~/.wine32 wine msiexec /i /path/to/pathofdiablolauncher.msi"
