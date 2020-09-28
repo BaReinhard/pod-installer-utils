@@ -7,7 +7,7 @@
 *I suggest to remove your previously installed wine, winetricks, xquartz*
 
 **Then Follow These steps**:
-1. Run the install script in this repo `bash install.sh`
+1. Install with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/BaReinhard/pod-installer-utils/master/install.sh)"`
 2. Run `wine explorer`
 3. Download Diablo II and Diablo II:LOD for Windows (NOT MAC)
 4. Read over the points identified here: https://pathofdiablo.com/wiki/index.php?title=Download
